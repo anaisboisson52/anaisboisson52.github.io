@@ -1,0 +1,337 @@
+* {
+    font-family: Times, Times New Roman, serif;
+}
+
+body {
+    background-color: fefae0;
+}
+
+header {
+    background-color: rgb(247, 235, 210);
+    height: 20vh;
+}
+
+#logo {
+    width: 19vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#logo img {
+    width: 112%;
+    margin-left: -1.5vw;
+}
+
+#titrePortfolio {
+    color: rgb(0, 0, 0);
+    margin-top: 5vh;
+    font-size: 25px;
+    font-style: italic;
+}
+
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 75vw;
+    float: right;
+    margin-top: 2vh;
+    height: 15vh;
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul li {
+    background-color: rgb(235, 218, 183);
+    margin: 1vh;
+    list-style-type: none;
+    width: 10vw;
+    height: 8vh;
+    margin-top: 5vh;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px rgb(194, 187, 150);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header ul li:hover {
+    background-color: rgb(235, 218, 183);
+    margin: 1vh;
+    list-style-type: none;
+    width: 10vw;
+    height: 8vh;
+    margin-top: 5vh;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px rgb(194, 187, 150);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+header a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+header a:visited {
+    color: rgb(0, 0, 0);
+}
+
+header a:hover {
+    color: rgb(0, 0, 0);
+}
+
+#promo {
+    width: 47%;
+    height: 110%;
+    background-color: rgb(209, 200, 157);
+    color: black;
+    font-size: 4vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+#promo:hover {
+    opacity: 0.5;
+}
+
+
+#promo img {
+    height: 30vh;
+    width: 20vw;
+    margin-left: 32vh;
+    margin-top: -2vh;
+    border-radius: 20px;
+}
+
+#jeudis {
+    color: black;
+}
+
+#dessert {
+    color: black;
+    margin-top: -3vh;
+}
+
+#place {
+    width: 20%;
+    height: 110%;
+    background-color: rgb(209, 200, 157);
+    color: black;
+    font-size: 4vh;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#place:hover {
+    opacity: 0.5;
+}
+
+
+#place img {
+    height: 35vh;
+    align-items: flex-start;
+    margin-left: 1.75vh;
+    margin-Top: -4vh;
+    border-radius: 20px;
+}
+
+
+#emporter {
+    width: 20%;
+    height: 110%;
+    background-color: rgb(209, 200, 157);
+    color: black;
+    font-size: 4vh;
+    text-align: center;
+    color: black;
+    border-radius: 20px;
+}
+
+#emporter img {
+    height: 30vh;
+    align-items: flex-start;
+    margin-left: 1.75vh;
+    margin-Top: 1vh;
+    border-radius: 20px;
+}
+
+#emporter:hover {
+    opacity: 0.5;
+}
+
+#baniere {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+section {
+
+    background-color: rgba(243, 236, 236, 0.829);
+    height: 80vh;
+    font-size: 18px;
+    margin-top: -1vh;
+    font-style: italic;
+}
+
+
+#réseaux {
+    background-color: rgb(171, 218, 233);
+    display: flex;
+    justify-content: space-evenly;
+    height: 10vh;
+    padding-top: 3vh;
+    align-items: flex-end;
+    flex-direction: row;
+
+}
+
+
+
+#Linkedin {
+    color: white;
+    margin-top: 1vh;
+    font-style: italic;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 10vw;
+}
+
+
+
+
+#Linkedin img {
+    width: 4vw;
+    margin-left: 6vw;
+    margin-top: -16vh;
+}
+
+#mail {
+    color: white;
+    font-style: italic;
+    margin-top: 1vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 10vw;
+}
+
+#mail img {
+    width: 4vw;
+    margin-left: 6vw;
+    margin-top: -16vh;
+}
+
+#youtube {
+    color: white;
+    font-style: italic;
+    margin-top: 1vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 10vw;
+}
+
+#youtube img {
+    width: 5vw;
+    margin-left: 6vw;
+    margin-top: -16vh;
+}
+
+#réseaux p {
+    width: 6vw;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: rgb(235, 218, 183);
+    margin: 1vh;
+    list-style-type: none;
+    width: 10vw;
+    height: 8vh;
+    margin-top: 5vh;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px rgb(194, 187, 150);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(235, 218, 183);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: rgb(235, 225, 205);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
