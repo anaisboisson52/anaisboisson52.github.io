@@ -92,14 +92,7 @@ Menu déroulant  */
     display: inline-block;
 }
 
-/* .navbar {
-    /* background-color: #333; */
-/* background: linear-gradient(76.8deg, rgb(121, 45, 129) 3.6%, rgb(36, 31, 98) 90.4%);
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+
 */ .navbar-nav {
     list-style: none;
     display: flex;
@@ -121,7 +114,7 @@ Menu déroulant  */
 
 .dropdown-menu {
     /* background-color: #333; */
-    background: linear-gradient(76.8deg, rgb(121, 45, 129) 3.6%, rgb(36, 31, 98) 90.4%);
+    background: linear-gradient(76.8deg, rgb(94, 169, 240) 3.6%, rgb(219, 44, 211) 90.4%);
     position: absolute;
     top: 100%;
     left: 0;
@@ -170,4 +163,8 @@ Menu déroulant  */
     margin-top: 80%;
     color: white;
 
+}
+
+button.accordion-button.collapsed {
+    color: rgb(255, 255, 255);
 }
